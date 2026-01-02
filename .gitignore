@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data files (large) - keep project outputs at repo root if needed
+/data/raw data/
+data/**/raw data/
+
+# Large common binaries
+*.zip
+*.tar.gz
+*.h5
+*.npy
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Keep top-level CSVs (like predictions) tracked; ignore CSVs only in data folders
+data/**/*.csv
+
+# Git
+*.patch
+*.diff
+
+# Other
+coverage/
+htmlcov/
